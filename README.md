@@ -10,4 +10,5 @@ Features:
 * Includes an adaptive Telegram bot for seamless access to data from any device (t.me/footyinfobot)
 * Built with the requests_html library for fast, efficient data gathering
 * Tested and optimized for reliable performance
+
 Whether you're a die-hard Premier League fan or a data analyst looking for insights into player and team performance, this web scraper is the perfect tool for gaining valuable insights and keeping up-to-date with the latest developments in English football.
