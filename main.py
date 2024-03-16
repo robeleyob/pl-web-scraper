@@ -1,9 +1,10 @@
 import asyncio
+import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, Application, MessageHandler, ConversationHandler, CallbackQueryHandler
 import premierLeague
 
-TOKEN = "5997252007:AAHT-r325bwX-LDsFsfaH9xIwUvj0g5HTeQ"
+TOKEN = os.getenv(token)
 
 application = Application.builder().token(TOKEN).build()
 premierLeague = premierLeague
