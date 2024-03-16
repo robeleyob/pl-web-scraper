@@ -1,10 +1,13 @@
 import asyncio
 import os
+from dotenv import load_dotenv
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, Application, MessageHandler, ConversationHandler, CallbackQueryHandler
 import premierLeague
 
-TOKEN = os.getenv(token)
+load_dotenv()
+
+TOKEN = os.getenv("token")
 
 application = Application.builder().token(TOKEN).build()
 premierLeague = premierLeague
